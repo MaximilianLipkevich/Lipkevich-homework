@@ -10,19 +10,23 @@ else:
     result = string[0] + string[1] + string[-2] + string[-1]
 
 print(result)
+#ok
+
 
 # task2
 phoneNumber = input("Enter the phone number:\n")
 
-if not phoneNumber.isdigit():
+if not phoneNumber.isdigit(): #nice check)
     print("The number should only contain digits in it.")
 else:
     print("The number is made out of digits.")
 
-if len(phoneNumber) > 10 or len(phoneNumber) < 10:
+if len(phoneNumber) > 10 or len(phoneNumber) < 10: # You can use == and 'not' orerators for this check) 
     print("The number should contain 10 digits.")
 else:
     print("The amount of digits is correct.")
+
+
 
 # task3
 a = random.randint(1, 99)
@@ -42,6 +46,8 @@ if chosenMethod[0] == mathQuestion:
     print("Your answer is correct")
 else:
     print(f"Your answer is incorrect. The correct answer is {chosenMethod[0]}")
+# very good but a little bic complicated as for the first lessons. But still ok)
+
 
 # task4
 myname = "maximilian"
@@ -54,3 +60,5 @@ else:
     result = False
 
 print(result)
+
+#+
