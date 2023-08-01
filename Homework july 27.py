@@ -21,3 +21,5 @@ print(5 / 2) #division
 print(5 ** 2) #exponenta
 print(5 % 2) #modulus
 print(5 // 2) #floor division
+
+# Fine! All is OK
