@@ -22,3 +22,5 @@ while len(list1) > commonIndex:
 print(f'First list is {list1}')
 print(f'Second list is {list2}')
 print(f'Common numbers are {list(set(list3))}')
+
+# be sure that you use all functional that we learn in sesson. This task will be more easier if you will use sets

@@ -10,7 +10,7 @@ while i < 20:
 randomNumbersIndex = 0
 biggestNumber = 0
 
-while len(randomNumbers) > randomNumbersIndex:
+while len(randomNumbers) > randomNumbersIndex: # method  "randomNumbers.max()" can be used insead of this whole loop)
     if randomNumbers[randomNumbersIndex] > biggestNumber:
         biggestNumber = randomNumbers[randomNumbersIndex]
         randomNumbersIndex += 1
@@ -19,3 +19,5 @@ while len(randomNumbers) > randomNumbersIndex:
 
 print(randomNumbers)
 print(f'The biggest number in the list is {biggestNumber}')
+
+#ok, but see the comment
