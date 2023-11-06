@@ -1,1 +1,1 @@
-print("hello max l")
+print("hello max")
